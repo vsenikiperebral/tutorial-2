@@ -22,6 +22,7 @@
   background-color: var(--active-color);
   color: var(--button-text-color);
   border-radius: 4px;
+
 }
 
 .page {
@@ -43,6 +44,7 @@
 
 .list a {
   text-decoration: none;
+  color: inherit;
 }
 
 .section-title {
@@ -55,6 +57,15 @@
 
 .section-title.hidden {
     display: none;
+}
+
+.list.portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 1.63;
+  
+    color: var(--title-text-color); 
 }
 
 h3 {
@@ -117,6 +128,9 @@ h3 {
 
   padding-top: 200px;
   padding-bottom: 280px;
+  margin-top: 0;
+  margin-bottom: 0;
+
 }
 
 /* PORTFOLIO PAGE */
