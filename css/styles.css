@@ -53,6 +53,10 @@
   color: var(--title-text-color);
 }
 
+.section-title.hidden {
+    display: none;
+}
+
 h3 {
   font-weight: 700;
   line-height: 1.17;
@@ -77,11 +81,16 @@ h3 {
 .site-nav a {
   font-weight: 500;
   letter-spacing: 0.02em;
+  line-height: 1.14;
 
   color: var(--title-text-color);
   text-decoration: none;
   list-style: none;
   padding-left: 0;
+}
+
+.site-nav.list .current {
+    color: var(--active-color);
 }
 
 .address a {
@@ -105,6 +114,9 @@ h3 {
   text-align: center;
 
   color: #ffffff;
+
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 
 /* PORTFOLIO PAGE */
