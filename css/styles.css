@@ -1,0 +1,112 @@
+
+
+
+
+
+.page {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+  line-height: 2;
+
+  color: #757575;
+    background-color: white;
+}
+
+.list {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0;
+}
+
+.list a {
+    text-decoration: none; 
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+  line-height: 1.16%;
+
+  color: #212121;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 14px;
+  line-height: 1.14%;
+  color: #212121; 
+  text-transform: uppercase;
+}
+
+.page span {
+    color: #2196F3;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+  line-height: 1.15;
+
+  color: #000000;
+  text-decoration: none;
+}
+
+.site-nav a {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+  line-height: 2;
+
+    color: #212121;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+}
+
+.address a {
+    color: #757575;
+    text-decoration: none;
+}
+
+
+/* HERO */
+
+.hero {
+    background-image: url(../images/hero.jpg);
+    height: 600px;
+}
+
+/* PORTFOLIO PAGE */
+
+.examples h3 {
+    font-size: 18px;
+    letter-spacing: 0.06em;
+  line-height: 2;
+
+    color: #212121;
+    text-decoration: none;
+    text-transform: none;
+    list-style: none;
+    padding-left: 0;
+    
+}
+
+.examples p {
+    font-size: 16px;
+    
+}
+
+
+/* COLORS */
+/* 
+Text color #757575
+Text white #FFFFFF
+Title color #212121
+Active color #2196F3
+BG color #FFFFFF
+BG color grey #F5F4FA
+Logo black #000000 */
+
