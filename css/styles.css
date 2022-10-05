@@ -3,6 +3,7 @@
   --title-text-color: #212121;
   --button-text-color: #ffffff;
   --active-color: #2196f3;
+  --fill-color: #F5F4FA;
 }
 
 /* BUTTON */
@@ -35,6 +36,7 @@
   padding-right: 15px;
 }
 
+
 .page {
   font-family: Roboto, sans-serif;
   font-weight: 400;
@@ -58,17 +60,41 @@
   color: inherit;
 }
 
+.list p {
+  margin: 0;
+  padding: 0;
+}
+
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16%;
 
   color: var(--title-text-color);
+
+  margin-bottom: 50px;
 }
 
 .section-title.hidden {
     display: none;
+  
 }
+
+.section.container {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.container.features {
+  margin-bottom: 90px;
+}
+
+.team {
+  background-color: #F5F4FA
+}
+
+
 
 .list.portfolio {
     font-weight: 500;
@@ -84,6 +110,8 @@ h3 {
   line-height: 1.17;
   color: var(--title-text-color);
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 .page span {
@@ -120,11 +148,16 @@ h3 {
   text-decoration: none;
 }
 
+.container.team {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
 /* HERO */
 
 .hero {
-  /* background-image: url(../images/hero.jpg);
-  height: 600px; */
+  background-image: url(../images/hero.jpg);
+  height: 600px;
   text-align: center;
 }
 
@@ -136,11 +169,12 @@ h3 {
   text-transform: uppercase;
   text-align: center;
 
-  color: tomato;
+  color: #FFFFFF;
 margin-top: 200px;
 margin-bottom: 30px;
 padding: 0;
 }
+
 
 /* PORTFOLIO PAGE */
 
@@ -168,3 +202,4 @@ Active color #2196F3
 BG color #FFFFFF
 BG color grey #F5F4FA
 Logo black #000000 */
+/* Fill section color  #F5F4FA */
