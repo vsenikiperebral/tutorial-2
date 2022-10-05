@@ -1,53 +1,73 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --button-text-color: #ffffff;
+  --active-color: #2196f3;
+}
 
+/* BUTTON */
 
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  line-height: 1.86;
 
+  padding: 10px 32px;
+  border: 1px solid var(--active-color);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 
+  background-color: var(--active-color);
+  color: var(--button-text-color);
+  border-radius: 4px;
+}
 
 .page {
-    font-family: Roboto, sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0.03em;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   line-height: 2;
 
-  color: #757575;
-    background-color: white;
+  color: var(--primary-text-color);
+  background-color: white;
 }
 
 .list {
-    list-style: none;
-    text-decoration: none;
-    padding-left: 0;
+  list-style: none;
+  text-decoration: none;
+  padding-left: 0;
 }
 
 .list a {
-    text-decoration: none; 
+  text-decoration: none;
 }
 
 .section-title {
-    font-weight: 700;
-    font-size: 36px;
+  font-weight: 700;
+  font-size: 36px;
   line-height: 1.16%;
 
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 h3 {
-    font-weight: 700;
-    font-size: 14px;
-  line-height: 1.14%;
-  color: #212121; 
+  font-weight: 700;
+  line-height: 1.17;
+  color: var(--title-text-color);
   text-transform: uppercase;
 }
 
 .page span {
-    color: #2196F3;
+  color: #2196f3;
 }
 
 .logo {
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
   line-height: 1.15;
 
   color: #000000;
@@ -55,50 +75,54 @@ h3 {
 }
 
 .site-nav a {
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.02em;
-  line-height: 2;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 
-    color: #212121;
-    text-decoration: none;
-    list-style: none;
-    padding-left: 0;
+  color: var(--title-text-color);
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0;
 }
 
 .address a {
-    color: #757575;
-    text-decoration: none;
+  color: var(--primary-text-color);
+  text-decoration: none;
 }
-
 
 /* HERO */
 
 .hero {
-    background-image: url(../images/hero.jpg);
-    height: 600px;
+  background-image: url(../images/hero.jpg);
+  height: 600px;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  letter-spacing: 0.06em;
+  line-height: 1.36;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #ffffff;
 }
 
 /* PORTFOLIO PAGE */
 
 .examples h3 {
-    font-size: 18px;
-    letter-spacing: 0.06em;
-  line-height: 2;
+  font-size: 18px;
+  letter-spacing: 0.06em;
 
-    color: #212121;
-    text-decoration: none;
-    text-transform: none;
-    list-style: none;
-    padding-left: 0;
-    
+  color: var(--title-text-color);
+  text-decoration: none;
+  text-transform: none;
+  list-style: none;
+  padding-left: 0;
 }
 
 .examples p {
-    font-size: 16px;
-    
+  font-size: 16px;
 }
-
 
 /* COLORS */
 /* 
@@ -109,4 +133,3 @@ Active color #2196F3
 BG color #FFFFFF
 BG color grey #F5F4FA
 Logo black #000000 */
-
