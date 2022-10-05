@@ -4,6 +4,7 @@
   --button-text-color: #ffffff;
   --active-color: #2196f3;
   --fill-color: #F5F4FA;
+  --fill-footer: #2F303A;
 }
 
 /* BUTTON */
@@ -69,11 +70,13 @@
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.16%;
+  line-height: 1.16;
 
   color: var(--title-text-color);
 
+  margin-top: 0;
   margin-bottom: 50px;
+  padding: 0;
 }
 
 .section-title.hidden {
@@ -83,6 +86,10 @@
 
 .section.container {
   margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.container.features {
   margin-bottom: 90px;
 }
 
@@ -191,6 +198,22 @@ padding: 0;
 
 .examples p {
   font-size: 16px;
+}
+
+.footer {
+  background-color: var(--fill-footer)
+}
+
+b {
+  color: #FFFFFF;
+}
+.footer .studio {
+  color: #FFFFFF;
+}
+
+.footer p {
+  margin: 0;
+  padding: 0;
 }
 
 /* COLORS */
