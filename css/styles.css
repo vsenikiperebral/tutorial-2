@@ -1,4 +1,18 @@
 .word {
-  font-size: 2em;
-  fill: steelblue;
+    font-size: 1em;
+    fill: steelblue;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.svg {
+width: 300%;
+height: 300%;
+;
 }
